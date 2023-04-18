@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/login-bg.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#login-form{
+    background-color: rgb(20, 8, 73);
+    border-radius: 20px;
+    transform: scale(1.0);
+    transition: 1s;
+}
+
+#login-form:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+a{
+    font-size: smaller;
+}
